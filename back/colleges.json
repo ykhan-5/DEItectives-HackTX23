@@ -1,0 +1,75 @@
+{
+  "universities": [
+    {
+      "name": "Texas Christian University",
+      "tuition": "57,130",
+      "address": "2800 S University Dr, Fort Worth, TX 76109",
+      "": "8172578228",
+      "website_url": "https://www.tcu.edu/diversity  inclusion/index.php",
+      "university_logo": "LOGO",
+      "coordinates": {
+        "latitude": "32.7079",
+        "longitude": "-97.3628"
+      },
+      "distance": "",
+      "logo":"https://c.animaapp.com/C40MbIbh/img/tcu-horned-frogs-logo-2@2x.png",
+      "picture":"https://c.animaapp.com/C40MbIbh/img/tcu-frog-fountain-1@2x.png"
+    },
+    {
+      "name": "Rice University",
+      "tuition": "57,210",
+      "address": "6100 Main St, Houston, TX 77005",
+      "website_url": "https://dei.rice.edu/",
+      "university_logo": "LOGO",
+      "coordinates": {
+        "latitude": "29.7174",
+        "longitude": "-95.4018"
+      },
+      "distance": "",
+      "picture":"https://c.animaapp.com/C40MbIbh/img/ricecampus-beautifulsunset2022-2560x1728-1@2x.png",
+      "logo":"https://c.animaapp.com/C40MbIbh/img/rice-owls-logo-2@2x.png"
+    },
+    {
+      "name": "University of Saint Thomas",
+      "tuition": "51.000",
+      "address": "3800 Montrose Blvd, Houston, TX 77006",
+      "website_url": "https://www.stthomas.edu/about/diversity-equity-inclusion/",
+      "university_logo": "LOGO",
+      "coordinates": {
+        "latitude": "29.7431",
+        "longitude": "-95.1897"
+      },
+      "distance": "",
+      "logo": "https://c.animaapp.com/C40MbIbh/img/university-of-st-thomas-houston-2@2x.png",
+      "picture":"https://c.animaapp.com/C40MbIbh/img/768x516-ue-1-1@2x.png"
+    },
+    {
+      "name": "Baylor University",
+      "tuition": "50,232",
+      "address": "1311S 5th St, Waco, TX 76706",
+      "website_url": "https://diversity.web.baylor.edu/",
+      "university_logo": "LOGO",
+      "coordinates": {
+        "latitude": "31.5501",
+        "longitude": "-97.1135"
+      },
+      "distance": "",
+      "logo":"https://c.animaapp.com/C40MbIbh/img/2018-baylor-athletics-logo-2@2x.png",
+      "picture":"https://c.animaapp.com/C40MbIbh/img/289760-1@2x.png"
+    },
+    {
+      "name": "Austin College",
+      "tuition": "46,025",
+      "address": "Austin College 900 N. Grand Ave.Sherman, TX 75090",
+      "website_url": "https://www.austincollege.edu/about/dei/",
+      "university_logo": "LOGO",
+      "coordinates": {
+        "latitude": "33.6474",
+        "longitude": "-96.5982"
+      },
+      "distance": "",
+      "logo":"https://c.animaapp.com/C40MbIbh/img/roo-only-2color-2@2x.png",
+      "picture":"https://c.animaapp.com/C40MbIbh/img/idea-center-2015-1@2x.png"
+    }
+  ]
+}
