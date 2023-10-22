@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 with open('colleges.json', 'r') as file:
   json_data = file.read()
-coorddata = json.loads(json_data)
+  coorddata = json.loads(json_data)
 
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -21,7 +21,7 @@ def haversine(lat1, lon1, lat2, lon2):
 
   c = a * b
 
-  d = 2 * math.atan2(math.sqrt(c), math.sqrt(1 - c))
+  d = 2 * math.atan2(math.sqrt(abs(c)), math.sqrt(abs(1 - c)))
 
   distance = R * d
   return distance
@@ -33,8 +33,8 @@ def get_sorted_universities(lon, lat):
   # closest = get_closest_university(lon, lat)
   # universities.remove(closest)
   def comp(university):
-    university["distance"] = haversine(lon, lat, university["longitude"],
-                                       university["latitude"])
+    university["distance"] = haversine(lon, lat, float(university["coordinates"]["longitude"]),
+                                       float(university["coordinates"]["latitude"]))
 
     return haversine(lon, lat, float(university["coordinates"]["longitude"]),
                      float(university["coordinates"]["latitude"]))
@@ -45,9 +45,7 @@ def get_sorted_universities(lon, lat):
 
 
 @app.route('/get_sorted_universities/<float:lon>,<float:lat>', methods=['GET'])
-def doGet(e):
-  lon = e.parameter["latitude"]
-  lat = e.parameter["lan"]
+def doGet(lon,lat):
   result = []
   for university in get_sorted_universities(lon, lat):
     result.append({
@@ -59,3 +57,6 @@ def doGet(e):
     })
 
   return result
+
+if __name__ == '__main__':
+  app.run(debug=True)
