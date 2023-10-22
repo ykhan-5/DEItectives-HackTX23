@@ -7,7 +7,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-with open('C:\\Users\\Sebastian\\OneDrive\\Desktop\\HackTX\\back\\colleges.json', 'r') as file:
+with open('colleges.json', 'r') as file:
   json_data = file.read()
   coorddata = json.loads(json_data)
 
