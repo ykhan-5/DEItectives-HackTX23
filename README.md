@@ -1,6 +1,6 @@
 # HackTX
 
-### DEItectives is a web app that matches users with the closest five campuses with DEI programs available to outside students. Through this search, the app also recommends three of the closest diversity-focused corporate events to aid those who seek to join a company where diversity is held at the forefront of their vision. 
+DEItectives is a web app that matches users with the closest five campuses with DEI programs available to outside students. Through this search, the app also recommends three of the closest diversity-focused corporate events to aid those who seek to join a company where diversity is held at the forefront of their vision. 
 
 ## Intro and Impact:
 ![gallery](https://github.com/ykhan-5/HackTX/assets/131565514/20757f24-0a5d-4a0c-b738-3d072e721985)
